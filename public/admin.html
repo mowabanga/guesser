@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Game Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container admin-container">
+    <h1>Game Admin Dashboard</h1>
+    <p class="note">Admin access only</p>
+    <div id="total-players">Total Players Ever: 0</div>
+    <div id="active-players">
+      <h2>Active Players</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Player ID</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody id="active-list">
+          <tr><td colspan="2">No active players</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

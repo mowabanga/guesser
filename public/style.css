@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 5px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#word-container {
+  font-size: 2em;
+  margin: 20px 20px 10px 20px;
+  letter-spacing: 5px;
+}
+
+#word-container span {
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+}
+
+#word-container input {
+  width: 1.5em;
+  font-size: 1em;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+#definition {
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: #666;
+  max-width: 300px;
+}
+
+#timer {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+#players-list {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: left;
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* Admin styles */
+.admin-container {
+  width: 500px;
+}
+
+#total-players {
+  font-size: 1.5em;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+#active-players {
+  font-size: 1em;
+  text-align: center;
+  color: #666;
+}
+
+#active-players h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+#active-players table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#active-players th, #active-players td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#active-players th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#active-players td {
+  color: #666;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #888;
+  margin: 10px 0;
+}

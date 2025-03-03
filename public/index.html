@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="players-list"></div>
+    <h1>Word Guessing Game</h1>
+    <div id="word-container"></div>
+    <div id="definition"></div>
+    <button onclick="submitGuess()">Guess</button>
+    <div id="score">Score: 0</div>
+    <div id="message"></div>
+    <div id="timer">Time: 15</div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
